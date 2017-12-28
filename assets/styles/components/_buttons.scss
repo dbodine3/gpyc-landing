@@ -1,0 +1,36 @@
+.gpyc-btn {
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 3px;
+    div,
+    span {
+        display: inline-block;
+        background: $white;
+        height: 2rem;
+        vertical-align: top;
+        padding: 0.5rem 0.75rem;
+    }
+    &:before,
+    &:after {
+        display: inline-block;
+        content: "";
+        background: $white;
+        width: 0.75rem;
+        height: 2rem;
+        margin: 0 0.25rem;
+    }
+    
+    &:hover {
+        div,
+        span {
+            background: $lighter-gray;
+        }
+        &:before,
+        &:after {
+            background: $lighter-gray;
+        }
+    }
+}

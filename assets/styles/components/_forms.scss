@@ -1,15 +1,81 @@
 // Search form
 .search-form {
-  @extend .form-inline;
+    @extend .form-inline;
 }
+
 .search-form label {
-  font-weight: normal;
-  @extend .form-group;
+    font-weight: normal;
+    @extend .form-group;
 }
+
 .search-form .search-field {
-  @extend .form-control;
+    @extend .form-control;
 }
+
 .search-form .search-submit {
-  @extend .btn;
-  @extend .btn-secondary;
+    @extend .btn;
+    @extend .btn-secondary;
+}
+
+.caldera-grid {
+    label {
+        font-size: 0.75rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .field_required {
+        color: $white!important;
+    }
+    .form-control {
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid $light-gray;
+        border-radius: none;
+        box-shadow: none;
+    }
+    
+    .btn {
+        padding: 0;
+        border: none;
+        background: transparent;
+        text-transform: uppercase;
+    }
+    
+    .btn-default {
+        
+    }
+    
+    .gpyc-btn {
+        text-align: center;
+        
+        div,
+        span {
+            margin: 0 -6px;
+            color: $white;
+            background: $gold;
+        }
+        input {
+            color: $white;
+            padding: 5px 30px;
+            margin-top: -6px;
+        }
+        &:before,
+        &:after {
+            color: $white;
+            background: $gold;
+        }
+
+        &:hover {
+            input,
+            div,
+            span {
+                background: $dark-gold;
+                color: $white;
+            }
+            &:before,
+            &:after {
+                background: $dark-gold;
+            }
+        }
+    }
 }

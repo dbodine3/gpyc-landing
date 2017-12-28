@@ -1,0 +1,149 @@
+// Aleo
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('../../assets/fonts/aleo/Aleo-Regular.eot');
+    src: url('../../assets/fonts/aleo/Aleo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/aleo/Aleo-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/aleo/Aleo-Regular.woff') format('woff'),
+        url('../../assets/fonts/aleo/Aleo-Regular.ttf') format('truetype'),
+        url('../../assets/fonts/aleo/Aleo-Regular.svg#Aleo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('../../assets/fonts/aleo/Aleo-Italic.eot');
+    src: url('../../assets/fonts/aleo/Aleo-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/aleo/Aleo-Italic.woff2') format('woff2'),
+        url('../../assets/fonts/aleo/Aleo-Italic.woff') format('woff'),
+        url('../../assets/fonts/aleo/Aleo-Italic.ttf') format('truetype'),
+        url('../../assets/fonts/aleo/Aleo-Italic.svg#Aleo-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('../../assets/fonts/aleo/Aleo-Light.eot');
+    src: url('../../assets/fonts/aleo/Aleo-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/aleo/Aleo-Light.woff2') format('woff2'),
+        url('../../assets/fonts/aleo/Aleo-Light.woff') format('woff'),
+        url('../../assets/fonts/aleo/Aleo-Light.ttf') format('truetype'),
+        url('../../assets/fonts/aleo/Aleo-Light.svg#Aleo-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('../../assets/fonts/aleo/Aleo-LightItalic.eot');
+    src: url('../../assets/fonts/aleo/Aleo-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/aleo/Aleo-LightItalic.woff2') format('woff2'),
+        url('../../assets/fonts/aleo/Aleo-LightItalic.woff') format('woff'),
+        url('../../assets/fonts/aleo/Aleo-LightItalic.ttf') format('truetype'),
+        url('../../assets/fonts/aleo/Aleo-LightItalic.svg#Aleo-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('../../assets/fonts/aleo/Aleo-Bold.eot');
+    src: url('../../assets/fonts/aleo/Aleo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/aleo/Aleo-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/aleo/Aleo-Bold.woff') format('woff'),
+        url('../../assets/fonts/aleo/Aleo-Bold.ttf') format('truetype'),
+        url('../../assets/fonts/aleo/Aleo-Bold.svg#Aleo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('../../assets/fonts/aleo/Aleo-BoldItalic.eot');
+    src: url('../../assets/fonts/aleo/Aleo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/aleo/Aleo-BoldItalic.woff2') format('woff2'),
+        url('../../assets/fonts/aleo/Aleo-BoldItalic.woff') format('woff'),
+        url('../../assets/fonts/aleo/Aleo-BoldItalic.ttf') format('truetype'),
+        url('../../assets/fonts/aleo/Aleo-BoldItalic.svg#Aleo-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+// Gotham
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../assets/fonts/gotham/Gotham-Light.eot');
+    src: url('../../assets/fonts/gotham/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/gotham/Gotham-Light.woff2') format('woff2'),
+        url('../../assets/fonts/gotham/Gotham-Light.woff') format('woff'),
+        url('../../assets/fonts/gotham/Gotham-Light.ttf') format('truetype'),
+        url('../../assets/fonts/gotham/Gotham-Light.svg#Gotham-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../assets/fonts/gotham/Gotham-LightItalic.eot');
+    src: url('../../assets/fonts/gotham/Gotham-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/gotham/Gotham-LightItalic.woff2') format('woff2'),
+        url('../../assets/fonts/gotham/Gotham-LightItalic.woff') format('woff'),
+        url('../../assets/fonts/gotham/Gotham-LightItalic.ttf') format('truetype'),
+        url('../../assets/fonts/gotham/Gotham-LightItalic.svg#Gotham-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../assets/fonts/gotham/Gotham-Medium.eot');
+    src: url('../../assets/fonts/gotham/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/gotham/Gotham-Medium.woff2') format('woff2'),
+        url('../../assets/fonts/gotham/Gotham-Medium.woff') format('woff'),
+        url('../../assets/fonts/gotham/Gotham-Medium.ttf') format('truetype'),
+        url('../../assets/fonts/gotham/Gotham-Medium.svg#Gotham-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../assets/fonts/gotham/Gotham-MediumItalic.eot');
+    src: url('../../assets/fonts/gotham/Gotham-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/gotham/Gotham-MediumItalic.woff2') format('woff2'),
+        url('../../assets/fonts/gotham/Gotham-MediumItalic.woff') format('woff'),
+        url('../../assets/fonts/gotham/Gotham-MediumItalic.ttf') format('truetype'),
+        url('../../assets/fonts/gotham/Gotham-MediumItalic.svg#Gotham-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../assets/fonts/gotham/Gotham-Bold.eot');
+    src: url('../../assets/fonts/gotham/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/gotham/Gotham-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/gotham/Gotham-Bold.woff') format('woff'),
+        url('../../assets/fonts/gotham/Gotham-Bold.ttf') format('truetype'),
+        url('../../assets/fonts/gotham/Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../assets/fonts/gotham/Gotham-BoldItalic.eot');
+    src: url('../../assets/fonts/gotham/Gotham-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/gotham/Gotham-BoldItalic.woff2') format('woff2'),
+        url('../../assets/fonts/gotham/Gotham-BoldItalic.woff') format('woff'),
+        url('../../assets/fonts/gotham/Gotham-BoldItalic.ttf') format('truetype'),
+        url('../../assets/fonts/gotham/Gotham-BoldItalic.svg#Gotham-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
