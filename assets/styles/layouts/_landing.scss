@@ -3,6 +3,9 @@
         &--header {
             border: 2px solid $white;
             
+            .fl-module-heading h1.fl-heading {
+                margin: 20px!important;
+            }
             h1 {
                 font-family: 'Gotham';
                 font-weight: 300;
