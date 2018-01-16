@@ -1,10 +1,11 @@
 .landing-page {
     &__banner {
+        
         &--header {
             border: 2px solid $white;
             
             .fl-module-heading h1.fl-heading {
-                margin: 20px!important;
+                margin: 1.5rem!important;
             }
             h1 {
                 font-family: 'Gotham';

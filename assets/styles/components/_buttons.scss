@@ -1,5 +1,6 @@
 .gpyc-btn {
     background: transparent;
+    color: $dark-blue;
     text-transform: uppercase;
     font-size: 0.75rem;
     line-height: 1.5;
@@ -25,12 +26,11 @@
     
     &:hover {
         div,
-        span {
-            background: $lighter-gray;
-        }
+        span,
         &:before,
         &:after {
-            background: $lighter-gray;
+            background: $dark-blue;
+            color: $white;
         }
     }
 }
