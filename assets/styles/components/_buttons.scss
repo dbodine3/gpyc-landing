@@ -5,6 +5,7 @@
     line-height: 1.65;
     font-weight: 500;
     letter-spacing: 2px;
+    text-align: center;
     div,
     span {
         display: inline-block;
@@ -36,6 +37,13 @@
         }
     }
     
+    &--full {
+        div,
+        span {
+            width: calc(100% - 2.5rem);
+        }
+    }
+    
     &--small {
         font-size: .75rem;
         line-height: 1.5;
@@ -51,7 +59,12 @@
             height: 1.5rem;
             margin: 0 0.25rem;
         }
-        
+        &.gpyc-btn--full {
+            div,
+            span {
+                width: calc(100% - 1.7rem);
+            }
+        }
     }
     
     &--smaller {
@@ -93,6 +106,29 @@
             &:after {
                 background: $white;
                 color: $gold;
+            }
+        }
+    }
+    
+    &--gold-black {
+        div,
+        span {
+            background: $gold;
+            color: $white;
+        }
+        &:before,
+        &:after {
+            background: $gold;
+        }
+
+        &:hover {
+            input,
+            div,
+            span,
+            &:before,
+            &:after {
+                background: $black;
+                color: $white;
             }
         }
     }
