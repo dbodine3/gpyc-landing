@@ -18,8 +18,11 @@
 }
 
 .caldera-grid {
+    .form-group {
+        margin-bottom: 2rem;
+    }
     label {
-        font-size: 0.75rem;
+        font-size: 1rem;
         font-weight: 500;
         text-transform: uppercase;
     }
@@ -32,6 +35,40 @@
         border-bottom: 2px solid $light-gray;
         border-radius: none;
         box-shadow: none;
+        transition: all .75s;
+        
+        &:focus {
+            box-shadow: none;
+            border-radius: 0;
+            background: $darker-gray;
+            border-color: $dark-gray;
+            color: $light-gray;
+        }
+    }
+    
+    
+    input.form-control.parsley-success, select.form-control.parsley-success, textarea.form-control.parsley-success {
+        color: $gold;
+        background-color: transparent;
+        border-color: $gold;
+    }
+    
+    input.form-control.parsley-error, select.form-control.parsley-error, textarea.form-control.parsley-error {
+        color: $error;
+        background-color: transparent;
+        border-color: $error;
+    }
+    
+    .has-error .form-control {
+        border-color: $error;
+        box-shadow: none;
+        &:focus {
+            background: $darker-gray;
+            box-shadow: none;
+        }
+    }
+    .caldera-grid .has-error .checkbox, .caldera-grid .has-error .checkbox-inline, .caldera-grid .has-error .control-label, .caldera-grid .has-error .form-control-feedback, .caldera-grid .has-error .help-block, .caldera-grid .has-error .radio, .caldera-grid .has-error .radio-inline, .caldera-grid .has-error.checkbox label, .caldera-grid .has-error.checkbox-inline label, .caldera-grid .has-error.radio label, .caldera-grid .has-error.radio-inline label {
+        color: $error;
     }
     
     .btn {
@@ -47,17 +84,25 @@
     
     .gpyc-btn {
         text-align: center;
+        height: 2.5rem;
+        max-width: 200px;
+        margin: 0 auto;
         
         div,
         span {
             margin: 0 -6px;
             color: $white;
+            height: 2.5rem;
             background: $gold;
+            padding: .5rem 0;
         }
         input {
             color: $white;
+            font-size: 1rem;
+            letter-spacing: 2px;
             padding: 5px 30px;
             margin-top: -6px;
+            height: 2.5rem;
             background: transparent!important;
         }
         &:before,

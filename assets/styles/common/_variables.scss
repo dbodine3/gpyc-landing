@@ -5,12 +5,22 @@ $sidebar-sm-columns:    4;
 
 // Colors
 
-$white:         #ffffff;
-$black:         #000000;
-$gold:          #c5ac73;
-$dark-gold:     #9a865a;
-$light-gray:    #919199;
-$lighter-gray:  #dadada;
-$dark-gray:     #525055;
-$dark-blue:     #25265e;
+$white:                     #ffffff;
+$black:                     #000000;
+$gold:                      #c5ac73;
+$lighter-gold:              #fff0cd;
+$dark-gold:                 #9a865a;
+$light-gray:                #919199;
+$lighter-gray:              #dadada;
+$dark-gray:                 #525055;
+$darker-gray:               #1e1e1e;
+$dark-blue:                 #25265e;
 
+// Transparent Colors
+$white--transparent:        rgba(255, 255, 255, 0.85);
+$black--transparent:        rgba(0, 0, 0, 0.75);
+$gold--transparent:         rgba(197, 172, 115, 0.75);
+$blue--transparent:         rgba(37, 38, 94, 0.85);
+
+//Error
+$error:                     #a04142;

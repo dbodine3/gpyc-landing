@@ -1,0 +1,28 @@
+//CTA Header Bar
+.cta-header-bar {
+    padding: .5rem;
+    color: $gold;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    &__content {
+        font-size: .75rem;
+
+    }
+
+    &__btn {
+        min-width: 150px;
+        margin-left: 1rem;
+        height: 1rem;
+    }
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}

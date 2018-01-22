@@ -1,11 +1,22 @@
 .landing-page {
     &__banner {
-        
+        &--logo {
+            @media screen and (max-width: 767px) {
+                max-width: 75%;
+                margin: 0 auto;
+            }
+        }
         &--header {
             border: 2px solid $white;
+            @media screen and (max-width: 767px) {
+                max-width: 95%;
+            }
             
             .fl-module-heading h1.fl-heading {
-                margin: 1.5rem!important;
+                margin: 1rem!important;
+                @media screen and (max-width: 767px) {
+                    font-size: 2rem;
+                }
             }
             h1 {
                 font-family: 'Gotham';
@@ -13,7 +24,7 @@
             }
             .landing-page__banner--btn {
                 margin-top: -8px;
-                margin-bottom: -22px;
+                margin-bottom: -27px;
             }
         }
     }

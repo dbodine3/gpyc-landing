@@ -1,18 +1,19 @@
 .gpyc-btn {
     background: transparent;
-    color: $dark-blue;
     text-transform: uppercase;
-    font-size: 0.75rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.65;
     font-weight: 500;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     div,
     span {
         display: inline-block;
         background: $white;
-        height: 2rem;
+        color: $dark-blue;
+        height: 2.5rem;
         vertical-align: top;
-        padding: 0.5rem 0.75rem;
+        padding: 0.5rem 1rem;
+        transition: 0.5s;
     }
     &:before,
     &:after {
@@ -20,8 +21,9 @@
         content: "";
         background: $white;
         width: 0.75rem;
-        height: 2rem;
+        height: 2.5rem;
         margin: 0 0.25rem;
+        transition: 0.5s;
     }
     
     &:hover {
@@ -31,6 +33,156 @@
         &:after {
             background: $dark-blue;
             color: $white;
+        }
+    }
+    
+    &--small {
+        font-size: .75rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        div,
+        span {
+            height: 1.5rem;
+            padding: 0.25rem .5rem;
+        }
+        &:before,
+        &:after {
+            width: 0.35rem;
+            height: 1.5rem;
+            margin: 0 0.25rem;
+        }
+        
+    }
+    
+    &--smaller {
+        font-size: .5rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        vertical-align: top;
+        div,
+        span {
+            height: 1rem;
+            padding: 0.125rem .5rem;
+        }
+        &:before,
+        &:after {
+            width: 0.175rem;
+            height: 1rem;
+            margin: 0 0.125rem;
+            margin-bottom: 5px;
+        }
+        
+    }
+    
+    &--gold {
+        div,
+        span {
+            background: $gold;
+            color: $white;
+        }
+        &:before,
+        &:after {
+            background: $gold;
+        }
+
+        &:hover {
+            input,
+            div,
+            span,
+            &:before,
+            &:after {
+                background: $white;
+                color: $gold;
+            }
+        }
+    }
+    
+    &--gold-outline {
+        div,
+        span {
+            background: $gold;
+            color: $white;
+            height: calc(2.5rem + 2px);
+            border: 1px solid $gold;
+        }
+        &:before,
+        &:after {
+            background: $gold;
+            height: calc(2.5rem + 2px);
+            border: 1px solid $gold;
+        }
+
+        &:hover {
+            input,
+            div,
+            span,
+            &:before,
+            &:after {
+                background: $white;
+                color: $gold;
+            }
+        }
+        
+        &.gpyc-btn--small {
+            font-size: .75rem;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            div,
+            span {
+                height: calc(1.5rem + 2px);
+                padding: 0.25rem .5rem;
+            }
+            &:before,
+            &:after {
+                width: 0.35rem;
+                height: calc(1.5rem + 2px);
+                margin: 0 0.25rem;
+            }
+        }
+    }
+    
+    &--dark-gold {
+        div,
+        span {
+            background: $dark-gold;
+            color: $gold;
+        }
+        &:before,
+        &:after {
+            background: $dark-gold;
+        }
+
+        &:hover {
+            input,
+            div,
+            span,
+            &:before,
+            &:after {
+                background: $white;
+                color: $gold;
+            }
+        }
+    }
+    &--black-hover {
+        div,
+        span {
+            background: $white;
+            color: $black;
+        }
+        &:before,
+        &:after {
+            background: $white;
+        }
+
+        &:hover {
+            input,
+            div,
+            span,
+            &:before,
+            &:after {
+                background: $black;
+                color: $white;
+            }
         }
     }
 }
